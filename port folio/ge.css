@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* اتجاه النص من اليمين لليسار */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+#hero {
+    background-color: #e0f7fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#levels, #lessons, #tests, #benefits, #certificates, #contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#levels div, #lessons div, #tests div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#benefits ul li {
+    margin: 10px 0;
+}
+
+#certificates div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    margin: 20px;
+}
+
+figure img {
+    width: 200px;
+    height: auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer address {
+    margin-top: 10px;
+}
