@@ -1,4 +1,4 @@
-# 💻 HTML, CSS & JavaScript Projects
+# 💻 HTML,CSS & JavaScript Projects
 
 A collection of small, creative front-end projects built using **HTML**, **CSS**, and **JavaScript**.  
 Each project is focused on practicing core web development skills and building up a solid portfolio.
